@@ -1,6 +1,15 @@
 .nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: aliceblue;
-    padding: 20px 40px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.nav__link {
+    color: rgb(100, 88, 88);
 }
 
 .nav__list {
