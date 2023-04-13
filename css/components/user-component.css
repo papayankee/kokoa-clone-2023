@@ -1,11 +1,11 @@
+.user-component {
+    justify-content: space-between;
+  }
+
 .user-component,
 .user-component__column:first-child {
     display: flex;
     align-items: center;
-}
-
-.user-component__column {
-    display: flex;
 }
 
 .user-component__avatar {
@@ -13,4 +13,17 @@
     height: 70px;
     border-radius: 30px;
     margin-right: 20px;
+}
+
+
+.user-component__title {
+    display: flex;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.user-component__subtitle {
+    margin-top: 8px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5)
 }
