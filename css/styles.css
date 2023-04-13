@@ -8,12 +8,15 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 
 body {
+    color: rgb(100, 88, 88);
     font-family: "Open Sans", sans-serif;
 }
 
