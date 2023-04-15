@@ -19,28 +19,7 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px; 
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
     position: absolute;
     left: 15px;
     bottom: 15px;
-}
-
-.nav__look-at-me {
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 2.5px;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 40px;
-    bottom: 30px;
 }
