@@ -1,3 +1,22 @@
 #chat-screen {
     background-color: rgb(176, 230, 252);
+    height: 1100vh;
 }
+
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(176, 230, 252);
+}
+
+.main-chat {
+    margin-top: 150px;
+}
+
+#chat-screen .status-bar, {
+    z-index: 2;
+}
+
+/* z-index 는 포토샵에 레이어 같은 개념이라고 생각하면 됨. 높을수록 우선순위가 높아짐. */
